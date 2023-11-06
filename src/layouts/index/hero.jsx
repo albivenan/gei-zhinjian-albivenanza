@@ -14,11 +14,12 @@ const Hero = () => {
   return (
     <div id="profil" className="container m-auto mb-20">
       <div className="flex -mt-10 justify-items-center">
+        <a href={profile}>
         <img
           src={profile}
           alt="profile"
           className="ml-5 w-[150px] h-[150px] object-cover rounded-full border-4 border-blue-600"
-        />
+        /></a>
         <div className="self-center mt-6 ml-2 leading-tight">
           <h1 className="text-2xl font-bold">Gei Zhinjian Albivenanza</h1>
           <p className="">UI/UX Designer | Fullstack Developer</p>
