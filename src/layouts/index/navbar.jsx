@@ -74,7 +74,7 @@ const Navbar = () => {
           <a href="#ruangperbincangan">Ruang Perbincangan</a>
         </li>
         <li>
-          <NavLink to="#berita">Berita Hangat</NavLink>
+          <a href="#berita">Berita</a>
         </li>
       </ul>
     </div>
