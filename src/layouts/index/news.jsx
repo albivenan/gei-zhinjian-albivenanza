@@ -38,7 +38,7 @@ const News = () => {
               <img
                 src={item.project_image}
                 alt={item.name}
-                className="object-cover w-full h-[300px] rounded-lg"
+                className="imgnews object-cover w-full h-[300px] rounded-lg"
               />
               <div className="project-desc flex h-[370px] flex-col justify-between px-4">
                 <div className="w-full flex-1 text-start">
