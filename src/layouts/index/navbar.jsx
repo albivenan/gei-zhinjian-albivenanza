@@ -31,19 +31,19 @@ const Navbar = () => {
         <div className="hamburger-child2-parent flex justify-end items-center">
         <ul className="hamburger-child2 flex w-full justify-around items-center">
         <li>
-          <a to="#profil">Profil</a>
+          <a href="#profil">Profil</a>
         </li>
         <li>
-          <a to="#alat&teknologi">Alat & Teknologi</a>
+          <a href="#alat&teknologi">Alat & Teknologi</a>
         </li>
         <li>
-          <a to="#project">projek</a>
+          <a href="#projek">projek</a>
         </li>
         <li>
-          <a to="#ruangperbincangan">Ruang Perbincangan</a>
+          <a href="#ruangperbincangan">Ruang Perbincangan</a>
         </li>
         <li>
-          <NavLink to="#berita">Berita Hangat</NavLink>
+          <a href ="#berita">Berita</a>
         </li>
         </ul>
 
