@@ -410,6 +410,9 @@
 
 /* For tablets and larger screens */
 @media (min-width: 768px) {
+  .imgnews {
+    height: 400px;
+  }
   .hamburger-child2-parent {
     width: 70%;
   }
